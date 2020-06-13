@@ -1,11 +1,11 @@
+pkg update -y
+pkg upgrade -y 
+pkg install git -y
 git clone https://github.com/MasterDevX/Termux-ADB
 cd Termux-ADB
 chmod +x InstallTools.sh
 ./InstallTools.sh
 clear
-pkg update -y
-pkg upgrade -y 
-pkg install git -y
 pkg install python2 -y
 pkg install python -y
 git clone https://github.com/metachar/PhoneSploit
