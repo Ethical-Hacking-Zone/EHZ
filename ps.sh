@@ -6,6 +6,7 @@ cd Termux-ADB
 chmod +x InstallTools.sh
 ./InstallTools.sh
 clear
+cd ..
 pkg install python2 -y
 pkg install python -y
 git clone https://github.com/metachar/PhoneSploit
