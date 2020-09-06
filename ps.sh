@@ -9,7 +9,7 @@ clear
 cd ..
 pkg install python2 -y
 pkg install python -y
-git clone https://github.com/metachar/PhoneSploit
+git clone https://github.com/cyberknight777/PhoneSploit
 cd PhoneSploit
 chmod +x main_linux.py
 pip2 install colorama
